@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QMainWindow, QApplication
-from gui.ui_designer_exmaple import Ui_MainWindow # change module name to your ui python script
+from gui.ui_example import Ui_MainWindow # change module name to your ui python script
 
 class MyWindow(QMainWindow, Ui_MainWindow):
     def __init__(self): 
